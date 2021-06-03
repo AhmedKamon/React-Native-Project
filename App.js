@@ -9,7 +9,8 @@ export default function App() {
       <CarItem 
       name={'Tesla X'} 
       tagLine={'Starting from 1000$'}
-      image={require('./assets/image/img1.jpg')}
+      taglineCta={'Touchless Delivery'}
+      image={require('./assets/image/img3.jpg')}
       ></CarItem>
       <StatusBar style="auto"  />
     </View>
