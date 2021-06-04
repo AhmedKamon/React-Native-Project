@@ -9,7 +9,7 @@ const CarsList = (props) => {
   return (
     <View style={styles.container}>
       <FlatList
-        data={cars}
+        data={cars}  // Cars ARay List
         renderItem={({item}) => <CarItem car={item} />}
         showsVerticalScrollIndicator={false}
         snapToAlignment={'start'}
