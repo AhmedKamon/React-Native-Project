@@ -1,4 +1,4 @@
-// All cars LIst 
+
 export default [{
     name: 'Model S',
     tagline: 'Starting at $3200',
@@ -19,3 +19,4 @@ export default [{
     taglineCTA: 'Touchless Delivery',
     image: require('../../assets/image/img1.jpg'),
   }];
+

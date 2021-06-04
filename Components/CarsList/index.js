@@ -1,6 +1,3 @@
-import React from 'react';
-import {View, Text, FlatList, Dimensions} from 'react-native';
-import CarItem from "../CarItem";
 
 import styles from './styles';
 import cars from './cars';
@@ -21,3 +18,4 @@ const CarsList = (props) => {
 };
 
 export default CarsList;
+
